@@ -728,6 +728,10 @@ footer .containerFooter .areaFooter .redeSocial a:hover {
     footer .containerFooter .areaFooter .horario {
         margin-left: 0rem;
     }
+    footer .containerFooter .areaFooter .contato p {
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
     .loader-container img {
         width: 20rem;
     }
@@ -737,4 +741,11 @@ footer .containerFooter .areaFooter .redeSocial a:hover {
         animation-iteration-count: infinite;
     }
     
+}
+
+@media (min-width: 376px) and (max-width: 424px) {
+    footer .containerFooter .areaFooter .contato p {
+        letter-spacing: 0rem;
+        margin-bottom: 1rem;
+    }
 }
